@@ -1,10 +1,13 @@
+import  Title from './components/MainTitle.js'
+import  Dropdown from './components/Dropdown.js'
 import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
-    <div className="front-page">
-      <h1>Here beggins the mimo world</h1>
+    <div>
+      <Title />
+      <Dropdown />
     </div>
   );
 }
