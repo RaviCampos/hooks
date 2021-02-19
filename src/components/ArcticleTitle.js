@@ -2,7 +2,7 @@
 function ActicleTitle(props) {
     if(props.title) {
         return (
-            <h3>{props.title}</h3>
+            <h3 className="redered_title">{props.title}</h3>
         )
     }
     return null
